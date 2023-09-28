@@ -58,14 +58,17 @@ int main()
 
 	//int arr1[3][3];
 
-	//int arr1[3][3] = { {1,0,1},{0, 2, 0},{2, 0, 2} };
-	int arr1[3][3] = { {1,5,1},{7, 2, 7},{102, 50, 102} };
+	int arr1[3][3] = { {1,0,1},{0, 2, 0},{2, 0, 2} };
+	int arr2[3][3] = { {1,5,1},{7, 2, 7},{102, 50, 101} };
 	//fill3X3MatrixWithRandomNumbers(arr1, 3, 3);
 
-	cout << " The Matrix is: \n";
+	cout << " The Matrix1 is: \n";
 	printMatrix3X3(arr1, 3, 3);
-
 	isPalindromMatrix(arr1, 3, 3);
+
+	cout << " The Matrix2 is: \n";
+	printMatrix3X3(arr2, 3, 3);
+	isPalindromMatrix(arr2, 3, 3);
 
 
 
